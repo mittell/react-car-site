@@ -3,7 +3,7 @@ import './PowerStyles.css';
 
 const Power = () => {
 	return (
-		<div className='power'>
+		<div name='power' className='power'>
 			<div className='container'>
 				<div className='top'>
 					<h1>Power</h1>

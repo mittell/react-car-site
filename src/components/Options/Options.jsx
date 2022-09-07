@@ -3,7 +3,7 @@ import './OptionsStyles.css';
 
 const Options = () => {
 	return (
-		<div className='options'>
+		<div name='options' className='options'>
 			<div className='container'>
 				<div className='top'>
 					<h1>Options</h1>
