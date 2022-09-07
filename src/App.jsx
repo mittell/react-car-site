@@ -1,3 +1,4 @@
+import Contact from './components/Contact/Contact';
 import Handling from './components/Handling/Handling';
 import Navbar from './components/Navbar/Navbar';
 import Options from './components/Options/Options';
@@ -12,6 +13,7 @@ function App() {
 			<Speed />
 			<Handling />
 			<Options />
+			<Contact />
 		</>
 	);
 }
