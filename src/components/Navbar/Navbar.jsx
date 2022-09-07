@@ -14,7 +14,7 @@ const Navbar = () => {
 	return (
 		<div className='navbar'>
 			<div className='container'>
-				<div className='logo'>
+				<div className={nav ? 'logo slide-right' : 'logo'}>
 					<h3>Race.</h3>
 				</div>
 

@@ -112,10 +112,19 @@
 	.hide {
 		display: none;
 	}
+
+	.navbar .slide-right {
+		margin-left: 44%;
+		transition: 0.8s ease-in-out;
+	}
 }
 
 @media screen and (max-width: 495px) {
 	.nav-menu {
 		width: 75%;
+	}
+
+	.navbar .slide-right {
+		margin-left: 33%;
 	}
 }
